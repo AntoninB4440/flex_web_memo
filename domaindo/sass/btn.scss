@@ -1,0 +1,73 @@
+@import "./custom.scss";
+
+.fa-chevron-left,
+.fa-chevron-right {
+  background-color: map-get($theme-colors, "primary");
+  color: white;
+  padding: 4px 10px;
+  margin: 0 2px 0 2px;
+  font-weight: bold;
+
+  &:hover {
+    background-color: white;
+    color: map-get($theme-colors, "primary");
+    transition: 0.5s ease;
+    border: 1px solid map-get($theme-colors, "primary");
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+.btn-info {
+  background-color: white;
+  text-transform: uppercase;
+  padding: 10px 17px 10px 17px;
+
+  color: map-get($theme-colors, "primary");
+  border: 1px solid map-get($theme-colors, "primary");
+  font-weight: bold;
+  &:hover {
+    background-color: map-get($theme-colors, "primary");
+    transition: 0.5s ease;
+    border: 1px solid white;
+    box-shadow: black 0 10px 10px 0;
+    text-decoration: none;
+  }
+  transition: 0.5s ease;
+}
+
+#quick-access {
+  padding: 2em 0 2em 0;
+}
+
+#btn-black {
+  color: white;
+  background-color: map-get($theme-colors, "secondary");
+  font-weight: bold;
+  padding: 2px 20px 2px 20px;
+  margin: 0 41px 0 0;
+  &:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s ease;
+    text-decoration: none;
+    border: 1px solid black;
+  }
+  transition: 0.5s ease;
+}
+
+#btn-calendar {
+  background-color: white;
+  text-transform: uppercase;
+  padding: 15px 17px 10px 17px;
+  color: black;
+  border: 1px solid black;
+  font-weight: bold;
+  &:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s ease;
+    text-decoration: none;
+  }
+  transition: 0.5s ease;
+}
